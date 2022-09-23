@@ -2,12 +2,12 @@
     "enabled": true,
     "coin": "neoxa.json",
 
-    "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe",
+    "address": "Change To Your Address",
     
-    "donateaddress": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe",
+    "donateaddress": "Change To Your Address",
 
     "rewardRecipients": {
-	    "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe":0.5
+	    "Change To Your Address":0.5
     },
 
     "paymentProcessing": {
@@ -22,7 +22,7 @@
             "host": "127.0.0.1",
             "port": 9766,
             "user": "pool",
-            "password": "password"
+            "password": "changepassword"
         }
     },
 
@@ -122,7 +122,7 @@
             "host": "127.0.0.1",
             "port": 9766,
             "user": "pool",
-            "password": "passwordhere"
+            "password": "changepassword"
         }
     ],
 
