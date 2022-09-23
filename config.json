@@ -69,7 +69,7 @@
         "sslport": 443,
         "sslkey": "~/nomp-kawpow-pool/certs/privkey.pem",
         "sslcert": "~/nomp-kawpow-pool/certs/fullchain.pem",
-        "stratumHost": "65.108.246.133",
+        "stratumHost": "Change To Your IP",
         "stats": {
             "updateInterval": 30,
             "historicalRetention": 95040,
