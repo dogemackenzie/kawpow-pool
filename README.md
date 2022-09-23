@@ -251,7 +251,7 @@ Create a pool config for you coins:
     
     mv pool_configs/neoxa_example.json pool_configs/neoxa.json
 
-Change "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe", to your pool created wallet address in file neoxa.json:
+Change "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe", to your pool created wallet address in file neoxa.json: Make sure to change the user/password for Daemon user. Needs to make what you created in ~/.neoxa/neoxa.conf
 
     cd pool_configs
     nano neoxa.json
