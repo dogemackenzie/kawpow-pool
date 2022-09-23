@@ -85,6 +85,7 @@ Other helpfull commands.
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/dogemackenzie/kawpow-pool
     cd kawpow-pool/
+    chmod 755 ./install.sh
     ./install.sh
 
 -------
