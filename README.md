@@ -82,7 +82,7 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/NeoxaChain/kawpow-pool
+    git clone https://github.com/dogemackenzie/kawpow-pool
     cd kawpow-pool/
     ./install.sh
 
