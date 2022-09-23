@@ -54,6 +54,11 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     echo "rpcpassword=pass1" >> ~/.neoxa/neoxa.conf
     echo "prune=550" >> ~/.neoxa/neoxa.conf
     echo "daemon=1" >> ~/.neoxa/neoxa.conf
+    echo "listen=1" >> ~/.neoxa/neoxa.conf
+    echo "checkmempool=100" >> ~/.neoxa/neoxa.conf
+    echo "maxmempool=800" >> ~/.neoxa/neoxa.conf
+    echo "maxconnections=500" >> ~/.neoxa/neoxa.conf
+    echo "dbcache=800" >> ~/.neoxa/neoxa.conf
     chmod +x neoxad 
     chmod +x neoxa-cli
     ./neoxad
