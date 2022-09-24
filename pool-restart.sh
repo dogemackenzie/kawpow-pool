@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "KawPoW Pool Restarting..."
+echo "Neoxa Pool Restarting..."
 echo ""
 
 source ~/.bashrc
@@ -23,7 +23,7 @@ sudo renice -n -18 -p $(pidof node)
 sudo renice -n -18 -p $(pidof nodejs)
 
 echo ""
-echo "KawPoW Pool Restarted!"
+echo "Neoxa Pool Restarted!"
 echo ""
 
 exit 0
