@@ -29,6 +29,7 @@ sudo systemctl enable redis-server
 sudo systemctl start redis-server
 sudo systemctl enable ntp
 sudo systemctl start ntp
+sudo systemctl start neoxad
 
 echo "Still Installing...5 more minutes Turkish!"
 
