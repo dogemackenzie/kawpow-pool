@@ -36,7 +36,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
 sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 nvm install v12.13.0
 nvm use v12.13.0
@@ -51,6 +51,6 @@ npm audit fix
 npm install sha3
 npm install logger
 
-echo "Installation completed!"
+echo "Installation completed Ya Bastard!!"
 
 exit 0
