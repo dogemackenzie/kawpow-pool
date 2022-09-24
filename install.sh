@@ -39,8 +39,8 @@ npm audit fix
 npm install sha3
 npm install logger
 
-npm rebuild
-npm i
+#npm rebuild
+#npm i
 
 echo "Installation completed Ya Bastard!!"
 
