@@ -173,7 +173,7 @@ If your daemon is hosted locally, keep your settings to 127.0.0.1, if you choose
         "sslport": 443,
         "sslkey": "~/nomp-kawpow-pool/certs/privkey.pem",
         "sslcert": "~/nomp-kawpow-pool/certs/fullchain.pem",
-        "stratumHost": "192.168.100.105",
+        "stratumHost": "Change To Your IP",
         "stats": {
             "updateInterval": 30,
             "historicalRetention": 172800,
