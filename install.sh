@@ -4,7 +4,7 @@
 echo "Pool install script."
 echo "Do NOT run as "root", run as the "pool" user!"
 
-echo "Installing... Please wait, have pancake and a smoke!"
+echo "Installing... Please wait, have pancake and a smoke! Its going to take a while!"
 
 sleep 3
 
@@ -30,6 +30,8 @@ sudo systemctl start redis-server
 sudo systemctl enable ntp
 sudo systemctl start ntp
 
+echo "Still Installing...5 more minutes Turkish!"
+
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -54,6 +56,6 @@ npm install logger
 npm rebuild
 npm i
 
-echo "Installation completed Ya Bastard!!"
+echo "Installation completed Ya Bastard!! Must construst additional Pylons!"
 
 exit 0
