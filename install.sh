@@ -32,6 +32,8 @@ sudo systemctl start ntp
 
 echo "Still Installing...5 more minutes Turkish!"
 
+sleep 3
+
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
