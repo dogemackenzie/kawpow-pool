@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "KawPoW Pool Stoping..."
+echo "Neoxa Pool Stoping..."
 echo ""
 
 source ~/.bashrc
@@ -17,7 +17,7 @@ echo "Current working dir : $PWD"
 echo "Script location path (dir) : $BASEDIR"
 echo ""
 
-~/.nvm/versions/node/v12.13.0/bin/pm2 stop pool
+~/.nvm/versions/node/v12.22.12/bin/pm2 stop pool
 
 echo ""
 echo "KawPow Pool Stopped!"
