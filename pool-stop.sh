@@ -20,7 +20,7 @@ echo ""
 ~/.nvm/versions/node/v12.22.12/bin/pm2 stop pool
 
 echo ""
-echo "KawPow Pool Stopped!"
+echo "Neoxa Pool Stopped!"
 echo ""
 
 exit 0
