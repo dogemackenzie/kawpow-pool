@@ -57,6 +57,6 @@ npm install logger
 npm rebuild
 npm i
 
-echo "Installation completed Ya Bastard!! Must construst additional Pylons!"
+echo "Installation completed Ya Bastard!! Must construct additional Pylons!"
 
 exit 0
