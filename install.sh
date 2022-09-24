@@ -9,7 +9,7 @@ echo "Installing... Please wait, have pancake and a smoke!"
 sleep 3
 
 sudo apt install -y apt-transport-https software-properties-common build-essential autoconf pkg-config make gcc g++ screen wget curl ntp fail2ban
-sudo add-apt-repository -y ppa:bitcoin/bitcoin
+#sudo add-apt-repository -y ppa:bitcoin/bitcoin
 sudo apt update
 sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
 sudo systemctl enable fail2ban
