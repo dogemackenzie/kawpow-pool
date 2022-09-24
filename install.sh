@@ -2,9 +2,9 @@
 
 # This is the Pool install script.
 echo "Pool install script."
-echo "Please do NOT run as root, run as the pool user!"
+echo "Do NOT run as "root", run as the "pool" user!"
 
-echo "Installing... Please wait!"
+echo "Installing... Please wait, have pancake and a smoke!"
 
 sleep 3
 
