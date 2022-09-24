@@ -19,8 +19,8 @@ echo ""
 
 ~/.nvm/versions/node/v12.13.0//bin/pm2 restart pool
 
-sudo renice -n -18 -p $(pidof node)
-sudo renice -n -18 -p $(pidof nodejs)
+renice -n -18 -p $(pidof node)
+renice -n -18 -p $(pidof nodejs)
 
 echo ""
 echo "Neoxa Pool Restarted!"
