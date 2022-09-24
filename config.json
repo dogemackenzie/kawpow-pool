@@ -67,8 +67,8 @@
         "host": "0.0.0.0",
         "port": 8080,
         "sslport": 443,
-        "sslkey": "~/nomp-kawpow-pool/certs/privkey.pem",
-        "sslcert": "~/nomp-kawpow-pool/certs/fullchain.pem",
+        "sslkey": "~/kawpow-pool/certs/privkey.pem",
+        "sslcert": "~/kawpow-pool/certs/fullchain.pem",
         "stratumHost": "Change To Your IP",
         "stats": {
             "updateInterval": 30,
