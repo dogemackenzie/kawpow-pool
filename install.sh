@@ -55,6 +55,9 @@ npm install sha3
 npm install logger
 
 npm rebuild
+
+sleep 5
+
 npm i
 
 echo "Installation completed Ya Bastard!! Must construct additional Pylons!"
