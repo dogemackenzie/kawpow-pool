@@ -17,7 +17,7 @@ sudo apt upgrade -y
 sudo apt dist-upgrade -y
 sudo apt install -y apt-transport-https software-properties-common build-essential autoconf pkg-config make gcc g++ screen wget curl ntp fail2ban 
 
-sudo add-apt-repository -y ppa:bitcoin/bitcoin
+#sudo add-apt-repository -y ppa:bitcoin/bitcoin
 
 sudo apt update
 sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
@@ -53,11 +53,11 @@ npm audit fix
 npm install sha3
 npm install logger
 
-npm rebuild
+#npm rebuild
 
 sleep 5
 
-npm i
+#npm i
 
 echo "Installation completed Ya Bastard!! Must construct additional Pylons!"
 
