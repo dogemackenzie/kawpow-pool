@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "KawPoW Pool Stoping..."
+echo "Neoxa Pool Stoping..."
 echo ""
 
 source ~/.bashrc
@@ -20,7 +20,7 @@ echo ""
 ~/.nvm/versions/node/v12.13.0/bin/pm2 stop pool
 
 echo ""
-echo "KawPow Pool Stopped!"
+echo "Neoxa Pool Stopped!"
 echo ""
 
 exit 0
