@@ -273,11 +273,14 @@ If your daemon is hosted locally, keep your settings to 127.0.0.1, if you choose
     mv pool_configs/neoxa_example.json pool_configs/neoxa.json
 
     
-### Change "address": "Your Generated Address", to your pool created wallet address in file neoxa.json: Make sure to change the user/password for Daemon user. Needs to make what you created in ~/.neoxa/neoxa.conf
+### Edit Pool Config
+
+    Change "address": "Your Generated Address", to your pool created wallet address in file neoxa.json: Make sure to change the user/password for Daemon user. Needs to make what you created in ~/.neoxa/neoxa.conf
 
     cd pool_configs
     nano neoxa.json
 
+### Sample Pool Config -- Please Edit And Add Your Info
 ```javascript
 {
     "enabled": true,
