@@ -436,6 +436,8 @@ Change "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe", to your pool created wal
 
 ```
 
-### Run Pool
-    
-    node ./init.js
+### Run Pool - In Sequence
+    cd ~
+    screen -S NeoxaDaemon ./neoxad --daemons #Only Run If Not Already Running
+    cd ~/kawpow-pool
+    screen -S PoolStart ./pool-start.sh && screen -S NOMP node ./init.js
