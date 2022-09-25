@@ -49,16 +49,50 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     sudo apt install unzip (May not be installed by Default)
     unzip neoxad-linux64.zip
     mkdir -p ~/.neoxa/
+    
+### Create Neoxa Config  
     touch ~/.neoxa/neoxa.conf
-    echo "rpcuser=user1" > ~/.neoxa/neoxa.conf
-    echo "rpcpassword=pass1" >> ~/.neoxa/neoxa.conf
-    echo "prune=550" >> ~/.neoxa/neoxa.conf
-    echo "daemon=1" >> ~/.neoxa/neoxa.conf
-    echo "listen=1" >> ~/.neoxa/neoxa.conf
-    echo "checkmempool=100" >> ~/.neoxa/neoxa.conf
-    echo "maxmempool=800" >> ~/.neoxa/neoxa.conf
-    echo "maxconnections=500" >> ~/.neoxa/neoxa.conf
-    echo "dbcache=800" >> ~/.neoxa/neoxa.conf
+    nano ~/.neoxa/nano.conf
+    
+### Copy and Paste The Following Into The Config. Change The Values As Needed!   
+
+#Copy From Here
+
+#RPC User Info
+rpcuser=pool        #<-----Change To You Desired Username
+rpcpassword=password  #<-----Change To You Desired Password
+
+#Daemon
+daemon=1
+
+#debug - 1 means all
+#debug=1
+
+#listen for incoming connections
+listen=1
+
+#check mempool every 100 tx
+checkmempool=100
+
+#max memory used ion MB (300 default)
+maxmempool=800
+
+#specify the most connections you will make;  more = more memory
+maxconnections=500
+
+#Set database cache size in megabytes (450mb default)
+dbcache=800
+
+#run as a server & accept RPC commands
+server=1
+
+#use upnp if you don't have port 8767 open on your router
+upnp=1
+
+#Prune
+prune=550
+
+#End Copy Here
     
 ### Daemon Permissions    
     chmod +x neoxad 
