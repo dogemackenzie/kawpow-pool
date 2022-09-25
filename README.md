@@ -58,7 +58,7 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     
 ### Copy and Paste The Following Into The Config. Change The Values As Needed!   
 
-#Copy From Here
+Copy From Here
 
 #RPC User Info
 rpcuser=pool        #<-----Change To You Desired Username
