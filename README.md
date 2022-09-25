@@ -59,8 +59,12 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     echo "maxmempool=800" >> ~/.neoxa/neoxa.conf
     echo "maxconnections=500" >> ~/.neoxa/neoxa.conf
     echo "dbcache=800" >> ~/.neoxa/neoxa.conf
+    
+### Daemon Permissions    
     chmod +x neoxad 
     chmod +x neoxa-cli
+    
+### Start Daemon, Get New Address For Pool Config    
     ./neoxad
     ./neoxa-cli getnewaddress
 
