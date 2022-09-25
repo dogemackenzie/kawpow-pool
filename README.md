@@ -52,6 +52,8 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     
 ### Create Neoxa Config  
     touch ~/.neoxa/neoxa.conf
+    
+### Edit Neoxa Config    
     nano ~/.neoxa/nano.conf
     
 ### Copy and Paste The Following Into The Config. Change The Values As Needed!   
