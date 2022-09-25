@@ -268,11 +268,12 @@ If your daemon is hosted locally, keep your settings to 127.0.0.1, if you choose
 
 }
 ```
-Create a pool config for you coins:
+### Create a pool config for you coins:
     
     mv pool_configs/neoxa_example.json pool_configs/neoxa.json
 
-Change "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe", to your pool created wallet address in file neoxa.json: Make sure to change the user/password for Daemon user. Needs to make what you created in ~/.neoxa/neoxa.conf
+    
+### Change "address": "Your Generated Address", to your pool created wallet address in file neoxa.json: Make sure to change the user/password for Daemon user. Needs to make what you created in ~/.neoxa/neoxa.conf
 
     cd pool_configs
     nano neoxa.json
@@ -282,12 +283,12 @@ Change "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe", to your pool created wal
     "enabled": true,
     "coin": "neoxa.json",
 
-    "address": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe",
+    "address": "Your Generated Address",
     
-    "donateaddress": "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe",
+    "donateaddress": "Your Generated Address",
 
     "rewardRecipients": {
-	    "GXUJSRkFHc6AJXMRyZTcA1xorKkXpU2RRe":0.5
+	    "Your Generated Address":0.5
     },
 
     "paymentProcessing": {
