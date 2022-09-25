@@ -2,7 +2,10 @@
     "name": "neoxamainnet",    
     "symbol": "NEOX",    
     "algorithm": "kawpow",
-    
+   
+    "wallet": "https://www.neoxa.net/",
+    "explorer":"https://explorer.neoxa.net/",
+        
     "blockTime": 60,
     "blockChange": 1
     
