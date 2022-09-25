@@ -115,6 +115,7 @@ If your daemon is hosted locally, keep your settings to 127.0.0.1, if you choose
     cd ~/kawpow-pool
     nano config.json
 
+### Example Pool Config
 ```javascript
 {
     
