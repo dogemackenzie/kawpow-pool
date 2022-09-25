@@ -93,7 +93,6 @@ Get more information.
 Information about synchronization of blocks in the main chain.
 
     neoxa-cli help
-Other helpfull commands.
 
 -------
 
