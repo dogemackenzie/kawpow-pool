@@ -57,17 +57,17 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     nano ~/.neoxa/nano.conf
     
 ### Add The Following Into The Config. Change The Values As Needed!   
-echo "rpcuser=user1" > ~/.neoxa/neoxa.conf
-echo "rpcpassword=pass1" >> ~/.neoxa/neoxa.conf
-echo "prune=550" >> ~/.neoxa/neoxa.conf
-echo "daemon=1" >> ~/.neoxa/neoxa.conf
-echo "listen=1" >> ~/.neoxa/neoxa.conf
-echo "#checkmempool=100" >> ~/.neoxa/neoxa.conf
-echo "#maxmempool=800" >> ~/.neoxa/neoxa.conf
-echo "#maxconnections=500" >> ~/.neoxa/neoxa.conf
-echo "#dbcache=800" >> ~/.neoxa/neoxa.conf
-echo "#server=1" >> ~/.neoxa/neoxa.conf
-echo "#upnp=1" >> ~/.neoxa/neoxa.conf
+    echo "rpcuser=user1" > ~/.neoxa/neoxa.conf
+    echo "rpcpassword=pass1" >> ~/.neoxa/neoxa.conf
+    echo "prune=550" >> ~/.neoxa/neoxa.conf
+    echo "daemon=1" >> ~/.neoxa/neoxa.conf
+    echo "listen=1" >> ~/.neoxa/neoxa.conf
+    echo "#checkmempool=100" >> ~/.neoxa/neoxa.conf
+    echo "#maxmempool=800" >> ~/.neoxa/neoxa.conf
+    echo "#maxconnections=500" >> ~/.neoxa/neoxa.conf
+    echo "#dbcache=800" >> ~/.neoxa/neoxa.conf
+    echo "#server=1" >> ~/.neoxa/neoxa.conf
+    echo "#upnp=1" >> ~/.neoxa/neoxa.conf
     
 ### Daemon Permissions    
     chmod +x neoxad 
