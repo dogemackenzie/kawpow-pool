@@ -57,8 +57,8 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     nano ~/.neoxa/nano.conf
     
 ### Add The Following Into The Config. Change The Values As Needed!   
-echo "rpcuser=user1" > ~/.neoxa/neoxa.conf  <-----Please Change To Desired Username
-echo "rpcpassword=pass1" >> ~/.neoxa/neoxa.conf  <-----Please Change To Desired Password
+echo "rpcuser=user1" > ~/.neoxa/neoxa.conf
+echo "rpcpassword=pass1" >> ~/.neoxa/neoxa.conf
 echo "prune=550" >> ~/.neoxa/neoxa.conf
 echo "daemon=1" >> ~/.neoxa/neoxa.conf
 echo "listen=1" >> ~/.neoxa/neoxa.conf
