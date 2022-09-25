@@ -4,7 +4,7 @@
 echo "Pool install script."
 echo "Do NOT run as "root", run as the "pool" user!"
 
-echo "Installing... Please wait, have pancake and a smoke! Its going to take a while!"
+echo "{RED}Installing... Please wait, have pancake and a smoke! Its going to take a while!{NC}"
 
 sleep 3
 
@@ -30,7 +30,7 @@ sudo systemctl start redis-server
 sudo systemctl enable ntp
 sudo systemctl start ntp
 
-echo "Still Installing...5 more minutes Turkish!"
+echo -e "{RED}Still Installing...5 more minutes Turkish!{NC}"
 
 sleep 3
 
@@ -61,6 +61,6 @@ sleep 5
 
 #npm i
 
-echo "Installation completed Ya Bastard!! Must construct additional Pylons!"
+echo "{RED}Installation completed Ya Bastard!! Must construct additional Pylons!{NC}"
 
 exit 0
