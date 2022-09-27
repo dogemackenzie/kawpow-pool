@@ -103,7 +103,7 @@ Information about synchronization of blocks in the main chain.
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/dogemackenzie/kawpow-pool
     cd kawpow-pool/
-    chmod 755 ./install.sh
+    chmod 755 install.sh
     ./install.sh
 
 -------
