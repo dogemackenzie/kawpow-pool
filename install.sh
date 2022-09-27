@@ -4,7 +4,7 @@
 echo "Pool install script."
 echo "Do NOT run as "root", run as the "pool" user!"
 
-echo "$(tput setaf 1)$(tput setab 7)Installing... Please wait, have pancake and a smoke! Its going to take a while!$(tput sgr 0)"
+echo "$(tput setaf 1)$(tput setab 7)Installing... Please wait, have a pancake and a smoke! Its going to take a while!$(tput sgr 0)"
 
 sleep 3
 
