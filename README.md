@@ -443,4 +443,4 @@ If your daemon is hosted locally, keep your settings to 127.0.0.1, if you choose
     cd ~
     screen -S NeoxaDaemon ./neoxad --daemons #Only Run If Not Already Running
     cd ~/kawpow-pool
-    screen -S PoolStart ./pool-start.sh && screen -S NOMP node ./init.js
+    screen -S NOMP node ./init.js
