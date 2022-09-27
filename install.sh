@@ -62,7 +62,7 @@ sleep 5
 
 #npm i
 
-echo "$(tput setaf 2)$(tput setab 7)Installation completed Ya Bastard!! Must construct additional Pylons!$(tput sgr 0)"
+echo "$(tput setaf 0)$(tput setab 7)Installation completed Ya Bastard!! Must construct additional Pylons!$(tput sgr 0)"
 
 
 exit 0
