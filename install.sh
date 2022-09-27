@@ -30,7 +30,7 @@ sudo systemctl start redis-server
 sudo systemctl enable ntp
 sudo systemctl start ntp
 
-echo "$(tput setaf 1)$(tput setab7 )Still Installing...5 more minutes Turkish!$(tput sgr 0)"
+echo "$(tput setaf 1)$(tput setab 7)Still Installing...5 more minutes Turkish!$(tput sgr 0)"
 
 
 sleep 3
