@@ -4,7 +4,7 @@
 echo "Pool install script."
 echo "Do NOT run as "root", run as the "pool" user!"
 
-echo "$(tput setaf 1) $(tput setab7)Installing... Please wait, have pancake and a smoke! Its going to take a while!$(tput sgr 0)"
+echo "$(tput setaf 1)$(tput setab 7)Installing... Please wait, have pancake and a smoke! Its going to take a while!$(tput sgr 0)"
 
 sleep 3
 
@@ -30,7 +30,7 @@ sudo systemctl start redis-server
 sudo systemctl enable ntp
 sudo systemctl start ntp
 
-echo "$(tput setaf 1) $(tput setab7)Still Installing...5 more minutes Turkish!$(tput sgr 0)"
+echo "$(tput setaf 1)$(tput setab7 )Still Installing...5 more minutes Turkish!$(tput sgr 0)"
 
 
 sleep 3
@@ -62,7 +62,7 @@ sleep 5
 
 #npm i
 
-echo "$(tput setaf 1) $(tput setab7)Installation completed Ya Bastard!! Must construct additional Pylons!$(tput sgr 0)"
+echo "$(tput setaf 1)$(tput setab 7)Installation completed Ya Bastard!! Must construct additional Pylons!$(tput sgr 0)"
 
 
 exit 0
