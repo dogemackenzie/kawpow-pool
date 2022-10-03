@@ -17,7 +17,7 @@ sudo apt dist-upgrade -y
 sudo apt install -y apt-transport-https software-properties-common build-essential autoconf pkg-config make gcc g++ screen wget curl ntp fail2ban 
 
 sudo apt update -y
-sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
+sudo apt install -y libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
 sudo apt install -y sudo git npm nodejs  
 
 service fail2ban start
