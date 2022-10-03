@@ -11,8 +11,14 @@ rm -rf /usr/lib/node_modules
 rm -rf node_modules
 apt remove --purge -y nodejs node
 rm /etc/apt/sources.list.d/*
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt install -y apt-transport-https software-properties-common build-essential autoconf pkg-config make gcc g++ screen wget curl ntp fail2ban 
 
-
+sudo apt update
+sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
+sudo apt install -y sudo git npm nodejs  
 
 service fail2ban start
 service fail2ban enable
