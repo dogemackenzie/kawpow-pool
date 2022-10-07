@@ -89,6 +89,10 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     chmod +x neoxad 
     chmod +x neoxa-cli
     
+### Add The Following If You Like
+    sudo ln -s ~/neoxa/neoxa-cli /usr/bin/neoxa-cli
+    sudo ln -s ~/neoxa/neoxad /usr/bin/neoxad
+    
 ### Start Daemon, Get New Address For Pool Config    
     ./neoxad
     ./neoxa-cli getnewaddress
