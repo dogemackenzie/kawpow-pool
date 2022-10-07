@@ -57,7 +57,7 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     touch ~/.neoxa/neoxa.conf
     
 ### Edit Neoxa Config    
-    nano ~/.neoxa/nano.conf
+    nano ~/.neoxa/neoxa.conf
     
 ### Add The Following Into The Config. Change The Values As Needed!   
     echo "rpcuser=user1" > ~/.neoxa/neoxa.conf
