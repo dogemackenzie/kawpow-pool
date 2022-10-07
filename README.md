@@ -72,6 +72,19 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     echo "#server=1" >> ~/.neoxa/neoxa.conf
     echo "#upnp=1" >> ~/.neoxa/neoxa.conf
     
+### Or Just Paste If You Know How
+    rpcuser=user1
+    rpcpassword=pass1
+    prune=550
+    daemon=1
+    listen=1
+    #checkmempool=100
+    #maxmempool=800
+    #maxconnections=500
+    #dbcache=800
+    #server=1
+    #upnp=1
+    
 ### Daemon Permissions    
     chmod +x neoxad 
     chmod +x neoxa-cli
