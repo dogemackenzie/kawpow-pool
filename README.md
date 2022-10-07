@@ -44,6 +44,7 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     sudo adduser pool
     sudo usermod -aG sudo pool
     su - pool
+    cd ~
     sudo apt install wget
     mkdir -p neoxa
     cd neoxa
