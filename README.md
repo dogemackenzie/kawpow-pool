@@ -65,8 +65,7 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     mkdir -p ~/.neoxa/
     touch ~/.neoxa/neoxa.conf
     
-### Edit Neoxa Config    
-    nano ~/.neoxa/neoxa.conf
+
     
 ### Add The Following Into The Config. Change The Values As Needed!   
     echo "rpcuser=user1" > ~/.neoxa/neoxa.conf
@@ -81,7 +80,10 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     echo "#server=1" >> ~/.neoxa/neoxa.conf
     echo "#upnp=1" >> ~/.neoxa/neoxa.conf
     
-### Or Just Paste If You Know How
+### Or Just Paste If You Know How - Start By Editing The Config 
+    
+    nano ~/.neoxa/neoxa.conf
+    
     rpcuser=user1
     rpcpassword=pass1
     prune=550
