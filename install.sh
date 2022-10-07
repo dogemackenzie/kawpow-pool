@@ -7,10 +7,10 @@ echo "$(tput setaf 1)$(tput setab 7)Installing... Please wait, have a pancake an
 
 sleep 3
 
-rm -rf /usr/lib/node_modules
-rm -rf node_modules
-apt remove --purge -y nodejs node
-rm /etc/apt/sources.list.d/*
+sudo rm -rf /usr/lib/node_modules
+sudo rm -rf node_modules
+sudo apt remove --purge -y nodejs node
+sudo rm /etc/apt/sources.list.d/*
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt dist-upgrade -y
@@ -20,12 +20,12 @@ sudo apt update -y
 sudo apt install -y libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
 sudo apt install -y sudo git npm nodejs  
 
-service fail2ban start
-service fail2ban enable
-service redis-server start
-service redis-server enable
-service ntp start
-service ntp enable
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
+sudo systemctl enable redis-server
+sudo systemctl start redis-server
+sudo systemctl enable ntp
+sudo systemctl start ntp
 
 echo "$(tput setaf 1)$(tput setab 7)Still Installing...5 more minutes Turkish!$(tput sgr 0)"
 
