@@ -51,9 +51,17 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     wget https://github.com/NeoxaChain/Neoxa/releases/download/v1.0.3/neoxad-linux64.zip   (Ensure LATEST!)
     sudo apt install unzip (May not be installed by Default)
     unzip neoxad-linux64.zip
-    mkdir -p ~/.neoxa/
+
+### Daemon Permissions    
+    chmod +x neoxad 
+    chmod +x neoxa-cli
+    
+### Add The Following If You Like For Convenience
+    sudo ln -s ~/neoxa/neoxa-cli /usr/bin/neoxa-cli
+    sudo ln -s ~/neoxa/neoxad /usr/bin/neoxad
     
 ### Create Neoxa Config  
+    mkdir -p ~/.neoxa/
     touch ~/.neoxa/neoxa.conf
     
 ### Edit Neoxa Config    
@@ -84,14 +92,6 @@ This is opensource mining pool for Neoxa, Please visit [Neoxa](https://www.neoxa
     #dbcache=800
     #server=1
     #upnp=1
-    
-### Daemon Permissions    
-    chmod +x neoxad 
-    chmod +x neoxa-cli
-    
-### Add The Following If You Like
-    sudo ln -s ~/neoxa/neoxa-cli /usr/bin/neoxa-cli
-    sudo ln -s ~/neoxa/neoxad /usr/bin/neoxad
     
 ### Start Daemon, Get New Address For Pool Config    
     ./neoxad
